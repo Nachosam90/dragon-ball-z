@@ -4,6 +4,6 @@ const { getCharacters, getCharacterById, updateCharacter } = require("../control
 
 router.get("/characters", getCharacters);
 router.get("/characters/:id", getCharacterById)
-router.get("/characters/:id", updateCharacter)
+router.put("/characters/:id", updateCharacter)
 
 module.exports = router;
